@@ -4,11 +4,8 @@ import classes from './App.module.css';
 function App() {
   return (
     <div className={classes.app}>
-      <Res>
-        <div>Box 1</div>
-      </Res>
-        <Res>
-            <div>Box 2</div>
+        <Res Pwidth={200} Pheight={200}>
+            <div>Box 1</div>
         </Res>
     </div>
   );
